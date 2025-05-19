@@ -86,9 +86,11 @@ jobs:
           - target: loongarch64-unknown-linux-gnu
             arch: loongarch64
             manylinux: 'manylinux_2_36'
+            maturin_docker_options: -e JEMALLOC_SYS_WITH_LG_PAGE=16
           - target: "loongarch64-unknown-linux-musl"
             arch: loongarch64
             manylinux: "musllinux_1_2"
+            maturin_docker_options: -e JEMALLOC_SYS_WITH_LG_PAGE=16
 
     steps:
       - uses: actions/checkout@v4
@@ -107,6 +109,7 @@ jobs:
         with:
           target: ${{ matrix.platform.target }}
           manylinux: ${{ matrix.platform.manylinux }}
+          docker-options: ${{ matrix.platform.maturin_docker_options }}
           args: --release --locked --out dist
       - name: "Upload wheels"
         run: |
